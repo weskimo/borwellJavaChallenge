@@ -24,4 +24,11 @@ public class RectangularTankRoom {
         // estimate that 1 litre of paint will cover 6 sq metres of wall
         this.wallAreaSqMetrePerPaint = 6;
     }
+
+    
+	public double getFloorArea() {
+		double outcome = floorLength * floorWidth;
+        System.out.println(outcome + " Metres Squared");
+        return outcome;
+	}
 }
