@@ -25,10 +25,28 @@ public class RectangularTankRoom {
         this.wallAreaSqMetrePerPaint = 6;
     }
 
-    
+    // generic algo for finding area of flat rectangle
 	public double getFloorArea() {
 		double outcome = floorLength * floorWidth;
         System.out.println(outcome + " Metres Squared");
         return outcome;
+	}
+
+	// generic algo for finding the area of the walls then we divide by the amount of
+	// area the paint will cover per litre. (estimate of 6 metre^2 per 1 litre paint)
+	public double getReqPaintInLitres() {
+		double wallAreaA = floorWidth * wallHeight;
+    	double wallAreaB = floorLength * wallHeight;
+    	
+    	double totalArea = (wallAreaA*2) + (wallAreaB*2);
+    	
+    	double totalAreaMinusWindow = totalArea - totalWindowArea;
+    	
+    	double litresNeeded = totalAreaMinusWindow / wallAreaSqMetrePerPaint;
+    	
+		System.out.println(litresNeeded + " litres of paint would be required to "
+				+ "paint all of the walls");
+    	
+    	return litresNeeded;
 	}
 }
