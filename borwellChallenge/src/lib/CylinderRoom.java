@@ -34,7 +34,7 @@ public class CylinderRoom {
 
 		double totalMinusWindows = (wallArea - totalWindowArea) / wallAreaSqMetrePerPaint;
 
-		System.out.println(totalMinusWindows);
+		System.out.println(totalMinusWindows + " is the required litres of paint for all the walls");
 		return totalMinusWindows;
 	}
 
