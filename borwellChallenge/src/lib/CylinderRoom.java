@@ -27,4 +27,14 @@ public class CylinderRoom {
 		System.out.println(area + " metres squared is the area of the floor");
 		return area;
 	}
+
+	public double getReqPaintInLitres() {
+		double wallArea = (2 * Math.PI * floorRadius * wallHeight) + 
+				  (2*Math.PI * floorRadius * floorRadius); 
+
+		double totalMinusWindows = (wallArea - totalWindowArea) / wallAreaSqMetrePerPaint;
+
+		System.out.println(totalMinusWindows);
+		return totalMinusWindows;
+	}
 }
