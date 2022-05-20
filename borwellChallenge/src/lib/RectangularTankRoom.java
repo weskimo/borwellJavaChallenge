@@ -28,7 +28,7 @@ public class RectangularTankRoom {
     // generic algo for finding area of flat rectangle
 	public double getFloorArea() {
 		double outcome = floorLength * floorWidth;
-        System.out.println(outcome + " Metres Squared");
+        System.out.println(outcome + " metres squared is the area of the floor");
         return outcome;
 	}
 
@@ -53,7 +53,7 @@ public class RectangularTankRoom {
 	// generic algo to calculate the volume of the room
 	public double getRoomVolume() {
 		double outcome = floorLength * floorWidth * wallHeight;
-    	System.out.println(outcome + " Metres Cubed");
+    	System.out.println(outcome + " metres cubed is the volume of the room");
     	return outcome;
 	}
 }
