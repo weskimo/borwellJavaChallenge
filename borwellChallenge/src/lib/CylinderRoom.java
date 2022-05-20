@@ -37,4 +37,10 @@ public class CylinderRoom {
 		System.out.println(totalMinusWindows);
 		return totalMinusWindows;
 	}
+
+	public double getRoomVolume() {
+		double volume = wallHeight * Math.PI * floorRadius * floorRadius ;
+    	System.out.println(volume + " metres cubed is the volume of the room");
+    	return volume;
+	}
 }
