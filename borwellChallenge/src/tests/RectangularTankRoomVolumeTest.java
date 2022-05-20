@@ -6,18 +6,18 @@ import org.junit.jupiter.api.Test;
 
 import lib.RectangularTankRoom;
 
-class RectangularTankRoomFloorAreaTest {
+class RectangularTankRoomVolumeTest {
 
 	@Test
-	void RectangularTankRoomFloorAreaTest() {
+	void RectangularTankRoomVolumeTest() {
 		
 		RectangularTankRoom testRectRoom = new RectangularTankRoom(10,10,10,5);
 		
+		double result = testRectRoom.getRoomVolume();
 		
-		double result = testRectRoom.getFloorArea();
-		double expectedOutcome = 10 * 10;
+		double outcome = 10 * 10 * 10;
 		
-		assertEquals( expectedOutcome, result);
+		assertEquals(outcome, result);
 	}
 
 }

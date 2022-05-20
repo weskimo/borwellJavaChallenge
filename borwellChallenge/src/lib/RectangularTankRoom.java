@@ -49,4 +49,11 @@ public class RectangularTankRoom {
     	
     	return litresNeeded;
 	}
+
+	// generic algo to calculate the volume of the room
+	public double getRoomVolume() {
+		double outcome = floorLength * floorWidth * wallHeight;
+    	System.out.println(outcome + " Metres Cubed");
+    	return outcome;
+	}
 }
