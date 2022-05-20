@@ -4,7 +4,7 @@ This project runs in the terminal.
 
 To run the project:
 
--Please download the code and run in the terminal.
+-Please download the code and run in the terminal or your IDEs console.
 
 -The user will be asked to enter the type of the room, they can choose between cylinder or rectangular rooms.
 
