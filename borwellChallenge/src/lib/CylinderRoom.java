@@ -21,4 +21,10 @@ public class CylinderRoom {
         // estimate that 1 litre of paint will cover 6 sq metres of wall
         this.wallAreaSqMetrePerPaint = 6;
     }
+
+	public double getFloorArea() {
+		double area = Math.PI * floorRadius * floorRadius;
+		System.out.println(area + " metres squared is the area of the floor");
+		return area;
+	}
 }
