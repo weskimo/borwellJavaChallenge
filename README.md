@@ -9,3 +9,6 @@ To run the project:
 -The user will be asked to enter the type of the room, they can choose between cylinder or rectangular rooms.
 
 -Enter the dimensions of the room when requested and the software will output the desired results that are asked for.
+
+
+- Extra documents in the github are: UML diagram, user stories, design features and backlog of things to add
