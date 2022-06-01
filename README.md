@@ -1,5 +1,5 @@
 # borwellJavaChallenge
-
+Everything in this repo was completed in a timed 4hour session.
 This project runs in the terminal.
 
 To run the project:
